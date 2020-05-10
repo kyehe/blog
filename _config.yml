@@ -506,7 +506,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var myname_hant = "铠";
           var myname_eng = "kye";
           var title = "选择你的支付方式";
-          # var subtitle = "";
+          var subtitle = "";
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
         </script>
         <p style="text-align: center; font-size: 30px; font-weight: bold; color: white"><a href="https://smartvlc.com">返回主页</a></p>
