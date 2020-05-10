@@ -135,7 +135,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             #sidebar-search-input {
               border-style:solid;
               border: 2px;
-              color: red;
+              border-color: red;
               width: 100%;
               border-radius:5px;
             }
@@ -147,6 +147,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           <input
             id="sidebar-search-input"
             placeholder="搜索本站博文"
+            style="width:1000px"
           />
           <ol
             id="sidebar-search-results-container"
@@ -179,7 +180,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           <style>
             .effect {
               margin: 1rem;
-              perspective: 900px;
+              perspective: 1200px;
             }
             .effect-info {
               text-align: center;
@@ -512,6 +513,14 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
           defer='defer'
         ></script>
+        
+        <script
+          src='https://qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js'
+          async='async'
+          charset='utf-8'
+          homePageUrl='/'
+          homePageName='回到我的主页'
+        ></script>
   home: # 用于生成ppt的模板，看不懂的话可以不用配置
     append_to_section_tag:
       - key: data-markdown
@@ -527,6 +536,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       <style>
         .sidebar {
           line-height: 1.5;
+          line-width: 10;
         }
         .reveal .slides {
           text-align: left;
