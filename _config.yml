@@ -234,6 +234,10 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           <br/>
           <br/>
           <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
 
         - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
           <div>
@@ -504,7 +508,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var title = "选择你的支付方式";
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
         </script>
-        <p style="text-align: center; font-size: 20px; font-weight: bold; color: white"><a href="https://smartvlc.com">返回主页</a></p>
+        <p style="text-align: center; font-size: 30px; font-weight: bold; color: white"><a href="https://smartvlc.com">返回主页</a></p>
       - |
         <meta
           charset="utf-8"
