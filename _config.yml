@@ -149,6 +149,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             }
           </style>
           <input
+            style="text-align:center"
             id="sidebar-search-input"
             placeholder="搜索本站博文"
             style="width:200px"
