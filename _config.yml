@@ -1,5 +1,5 @@
 title: Kye's Blog # 站点标题
-description: | # 头像背后的信息（html格式），<br/>代表换行
+description: | # 头像背后的信息
   BUPT 17th M.E <br/>
   DiDi <br/>
   <a href="mailto:hk_deyx@foxmail.com">
@@ -21,7 +21,7 @@ url: https://smartvlc.com # 你的域名
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
-  sidebar_open: true
+  sidebar_open: false
   default:
     body:
       theme-base: theme-base-0d # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
@@ -88,7 +88,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           h5,
           h6,
           .sidebar {
-            font-family: "Lucida Grande", Helvetica, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif
+            font-family: "Lucida Grande", Helvetica, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", "Times New Roman", sans-serif;
+            width:20rem;
           }
         </style>
       - | #修复行内图片默认样式
@@ -212,7 +213,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
               transform: rotate3d(0, 1, 0, -180deg);
             }
           </style>
-        - | # 目录插件，如果看不懂就不改
+        - | # 目录插件
           <style>
             #toc {
               overflow: auto auto;
@@ -239,7 +240,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           <br/>
           <br/>
 
-        - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
+        - | # 运行时间
           <div>
             <i class="fas fa-cog fa-spin fa-fw"></i>
             <span id="run_time_day">
@@ -280,7 +281,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
               }, 1000, "05/10/2020 10:00:56") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
-        - | # 不蒜子页面统计，看不懂可不改
+        - | # 不蒜子页面统计
           <div>
             <div>
               <i class="fas fa-eye fa-fw"></i>
