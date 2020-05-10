@@ -501,6 +501,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var alipay = "HTTPS://QR.ALIPAY.COM/FKX04170RIU6L6JJAILFCE";
           var myname = "kye";
           var profile = "/assets/image/Avatar.png";
+          var branding = false; // Disable branding;
           var multilingual = true;
           var myname_hans = myname;
           var myname_hant = "铠";
