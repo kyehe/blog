@@ -1,6 +1,6 @@
-title: Kye's Blog. # 站点标题
+title: Kye's Blog # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  BUPT 17级小硕<br/>
+  BUPT<br/>
   DiDi<br/>
   <a href="mailto:hk_deyx@foxmail.com">
     <i class="fas fa-envelope"></i>
@@ -111,7 +111,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           }
         </style>
     sidebar: # 此配置项下是一些关于侧边栏的配置
-      disable: false # 是否不显示sidebar
+      width: 80px
+      disable: true # 是否不显示sidebar
       avatar: # 侧边栏显示的头像
         enable: true
         img: /assets/image/Avatar.png # 头像的地址
@@ -133,9 +134,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           <style>
             #sidebar-search-input {
               border-style:solid;
-              background: none;
               border: 2px;
-              color: White;
+              color: red;
               width: 100%;
               border-radius:5px;
             }
@@ -484,11 +484,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var myname = "kye";
           var profile = "/assets/image/Avatar.png";
           var multilingual = true;
-          var myname_hans = "kye";
-          var myname_hant = kye;
+          var myname_hans = "何铠";
+          var myname_hant = 何铠;
           var myname_eng = "kye";
           var title = "选择你的支付方式";
-          var subtitle = "跟随进一步的指示以向" + myname + "付款";
+          var subtitle = "跟随进一步的指示以向" + myname + "付款~";
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
         </script>
       - |
