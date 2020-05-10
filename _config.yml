@@ -220,13 +220,21 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             }
           </style>
           <aside id="toc">
-            目录
+            <b>目录</b>
           </aside>
           <script
             defer='defer'
             src='https://cdn.jsdelivr.net/npm/html-contents/html-contents.min.js'
             onload="htmlContents('#toc', {listType: 'o', filter: function(arr) {return !arr.matches('.masthead-title')}})"
           ></script>
+
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          
         - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
           <div>
             <i class="fas fa-cog fa-spin fa-fw"></i>
@@ -265,7 +273,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "10/05/2020 10:00:56") // 这是我第一篇CSDN博客的时间
+              }, 1000, "05/10/2020 10:00:56") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计，看不懂可不改
@@ -296,13 +304,13 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         - | # Copyright声明
           <div>
             <i class="fas fa-copyright fa-fw"></i>
-            2020-2020 Kye
+            2020 Kye
           </div>
         - | # 觉得我的主题好用的话，让更多的人知道它吧！
           <div>
             <i class="fas fa-thumbs-up fa-fw"></i>
             <a href="https://jekyll-theme-WuK.wu-kan.cn">
-              本站模板："jekyll-theme-WuK"
+              本站模板
             </a>
           </div>
         - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
