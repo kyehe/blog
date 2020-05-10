@@ -1,9 +1,7 @@
 
-欢迎访问我的个人主页！下面向你介绍一下我自己吧~
+欢迎访问我的个人主页~
 
-<!-- slide -->
+## About me
 
-## 我的一些联系方式
-
-- Address: **BUPT. - Beijing, China**
-- Site: **<https://smartvlc.com>**
+- Address: **BUPT - Beijing, China**
+- Blog Site: **<https://smartvlc.com>**

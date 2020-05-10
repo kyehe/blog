@@ -8,7 +8,15 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://github.com/githubuserhk">
     <i class="fab fa-github"></i>
   </a>
-  
+  <iframe
+    src="https://music.163.com/outchain/player?type=0&id=16846088&auto=0&height=32"
+    width=100%
+    height=52
+    frameborder="no"
+    border="0"
+    marginwidth="0"
+    marginheight="0"
+  ></iframe>
 url: https://smartvlc.com # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -489,6 +497,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var subtitle = "跟随进一步的指示以向" + myname + "付款~";
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
         </script>
+        <p style="text-align: center"><a href="https://smartvlc.com">返回主页</a></p>
       - |
         <meta
           charset="utf-8"
@@ -510,7 +519,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
           defer='defer'
         ></script>
-        <p style="text-align: center"><a href="/">返回主页</a></p>
   home: # 用于生成ppt的模板，看不懂的话可以不用配置
     append_to_section_tag:
       - key: data-markdown
