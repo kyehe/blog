@@ -7,5 +7,5 @@ jekyll-theme-WuK:
 
 #### About me
 
-- Address: **BUPT - Beijing, China**
-- Blog Site: **<https://smartvlc.com>**
+ - ##### Address: **BUPT - Beijing, China**
+ - ##### Blog Site: **<https://smartvlc.com>**
