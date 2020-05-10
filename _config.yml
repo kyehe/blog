@@ -501,7 +501,10 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var alipay = "HTTPS://QR.ALIPAY.COM/FKX04170RIU6L6JJAILFCE";
           var myname = "kye";
           var profile = "/assets/image/Avatar.png";
-          var multilingual = false;
+          var multilingual = true;
+          var myname_hans = "kye";
+          var myname_hant = kye;
+          var myname_eng = "kye";
           var title = "选择你的支付方式";
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
         </script>
