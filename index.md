@@ -8,5 +8,5 @@ jekyll-theme-WuK:
 
 #### About me
 
- - ##### Address: BUPT - Beijing, China
+ - ##### ID: BUPT 17th M.E. Beijing, China.
  - ##### Blog Site: <https://smartvlc.com>
