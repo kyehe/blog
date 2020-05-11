@@ -4,9 +4,3 @@
 
  - ##### Address: BUPT - Beijing, China
  - ##### Blog Site: <https://smartvlc.com>
-
-
----
-jekyll-theme-WuK:
-  sidebar_open: true
----
