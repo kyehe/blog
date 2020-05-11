@@ -1,4 +1,5 @@
 ---
+layout: index
 title: 首页
 jekyll-theme-WuK:
   sidebar_open: true
