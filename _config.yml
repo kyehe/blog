@@ -583,7 +583,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           async='async'
           charset='utf-8'
           homePageUrl='/'
-          homePageName='回到我的主页'
+          homePageName='返回主页'
+          <p style="text-align: center; font-size: 20px; font-weight: bold; color: white"><a href="https://smartvlc.com">homePageName</a></p>
         ></script>
 
 # githubpage上支持的插件见<https://pages.github.com/versions/>
