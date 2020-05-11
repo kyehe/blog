@@ -89,7 +89,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           h6,
           .sidebar {
             font-family: "Lucida Grande", Helvetica, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", "Times New Roman", sans-serif;
-            width:20rem;
+            width:14rem;
           }
         </style>
       - | #修复行内图片默认样式
