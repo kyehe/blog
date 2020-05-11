@@ -123,7 +123,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         img: /assets/image/Avatar.png # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
-          href: /
+          href: /index/
         - title: '<i class="fas fa-tags fa-fw"></i> 标签'
           href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
@@ -330,6 +330,8 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         alert: <i class="fas fa-user-edit fa-fw"></i>
         kilo: 千
         unit: 字
+  index:
+
   page:
     masthead: # 显示顶栏
       enable: true
@@ -584,7 +586,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           charset='utf-8'
           homePageUrl='/'
           homePageName='返回主页'
-          <p style="text-align: center; font-size: 20px; font-weight: bold; color: white"><a href="https://smartvlc.com">homePageName</a></p>
         ></script>
 
 # githubpage上支持的插件见<https://pages.github.com/versions/>
