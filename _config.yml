@@ -240,7 +240,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           <br/>
           <br/>
 
-        - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
+        - | # 运行时间
           <div>
             <i class="fas fa-cog fa-spin fa-fw"></i>
             <span id="run_time_day">
@@ -278,7 +278,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "05/10/2020 10:00:56") // 这是我第一篇CSDN博客的时间
+              }, 1000, "05/10/2020 10:00:56") // 建站时间
             </script>
           </div>
         - | # 不蒜子页面统计，看不懂可不改
@@ -506,8 +506,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var myname_hans = myname;
           var myname_hant = "铠";
           var myname_eng = "kye";
-          var title = "请选择你的支付方式";
-          var subtitle = "感谢~";
+          var title = "请选择你的支付方式:)";
           var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
         </script>
         <p style="text-align: center; font-size: 30px; font-weight: bold; color: white"><a href="https://smartvlc.com">返回主页</a></p>
