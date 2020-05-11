@@ -330,8 +330,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         alert: <i class="fas fa-user-edit fa-fw"></i>
         kilo: 千
         unit: 字
-  index:
-
   page:
     masthead: # 显示顶栏
       enable: true
