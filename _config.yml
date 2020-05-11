@@ -8,6 +8,8 @@ description: | # 头像背后的信息
   <a href="https://github.com/githubuserhk">
     <i class="fab fa-github"></i>
   </a>
+  - |
+  <br/>
   <iframe
     src="https://music.163.com/outchain/player?type=2&id=16846088&auto=0&height=32"
     width=100%
@@ -21,7 +23,6 @@ url: https://smartvlc.com # 你的域名
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
-  sidebar_open: false
   default:
     body:
       theme-base: theme-base-0d # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
@@ -122,7 +123,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         img: /assets/image/Avatar.png # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
-          href: /
+          href: /index/
         - title: '<i class="fas fa-tags fa-fw"></i> 标签'
           href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 归档'
